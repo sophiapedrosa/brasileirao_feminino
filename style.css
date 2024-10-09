@@ -1,0 +1,45 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.title {
+    font-size: 20px;
+    color: #daa520;
+    text-align: center;
+}
+.game-info {
+    margin-bottom: 16px;
+    margin-left: 32px;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.game-item {
+    width: 50%;
+}
+
+.video iframe {
+    width: 100%;
+    height: 225px;
+}
+
+/* Estiliazação pra reaproveitar */
+.data-item {
+    font-size: 15px;
+    color: #2f4f4f;
+}
+
+.artilharia .data-list {
+    list-style-type: disc; 
+}
+
+.principais .data-list {
+    list-style-type: square;
+}
+
+.jornada .data-list  {
+    list-style-type: circle;
+}
